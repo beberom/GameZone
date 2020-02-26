@@ -1,0 +1,150 @@
+body {
+  margin: 0; }
+
+@font-face {
+  font-family: "gamer";
+  src: url(angrybirds-regular.ttf); }
+header {
+  background-image: url(../img/imagedefond.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center center; }
+  header .tailleli {
+    font-size: 22px;
+    font-family: "gamer"; }
+  header ul {
+    display: inline-block; }
+    header ul li {
+      display: inline-block;
+      color: white; }
+  header .img {
+    width: 30%;
+    position: absolute;
+    left: 0%;
+    top: 20%; }
+  header hr {
+    height: 10px;
+    background-color: white;
+    display: block; }
+  header .headerformu {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    margin: 0 auto; }
+    header .headerformu .testperso {
+      display: block;
+      font-size: 30px; }
+    header .headerformu .boutonheader {
+      font-size: 49px;
+      font-family: "gamer";
+      background-color: black;
+      background: linear-gradient(turquoise, fuchsia); }
+
+.section1 {
+  background-image: url(../img/imagedefond1.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  .section1 h2, .section1 p {
+    color: white;
+    width: 50%;
+    margin: 0 auto; }
+
+.section2 {
+  background-image: url(../img/imagedefond2.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+#test {
+  width: 80%;
+  margin-top: 4%; }
+
+#nouveaugamers {
+  font-size: 50px;
+  font-family: "gamer";
+  color: white;
+  padding-right: 120px; }
+
+.section3 {
+  background-image: url(../img/imagedefond3.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative; }
+
+.carou {
+  width: 70%;
+  height: 50vh;
+  position: absolute;
+  left: 15%;
+  top: 25%; }
+
+.carousel-item img {
+  margin: 0 auto;
+  width: 60%;
+  margin-top: 25px; }
+
+footer {
+  background-color: #313131; }
+
+@media screen and (max-width: 576px) {
+  header {
+    background-position: center center; }
+    header .img {
+      margin: 0 auto;
+      left: 34%;
+      top: 43%; }
+    header .headerformu {
+      left: 0%; }
+      header .headerformu .testperso {
+        font-size: 20px; }
+      header .headerformu .boutonheader {
+        font-size: 29px; }
+
+  .section1 {
+    background-position: center center; } }
+.fixer {
+  position: fixed;
+  z-index: 10;
+  width: 100%; }
+
+.bandeau1 {
+  background-color: black;
+  color: black;
+  font-size: 80px;
+  font-family: "gamer"; }
+
+.carrebandeau1 {
+  background: #ea1bf6;
+  background: linear-gradient(90deg, rgba(234, 27, 246, 0.7049194678) 0%, rgba(0, 243, 255, 0.7021183473) 50%, rgba(234, 27, 246, 0.6965161064) 100%); }
+
+.carrebandeau2 {
+  background: #ea1bf6;
+  background: linear-gradient(90deg, rgba(234, 27, 246, 0.7049194678) 0%, rgba(0, 243, 255, 0.7021183473) 50%, rgba(234, 27, 246, 0.6965161064) 100%); }
+
+.carrebandeau3 {
+  background: #ea1bf6;
+  background: linear-gradient(90deg, rgba(234, 27, 246, 0.7049194678) 0%, rgba(0, 243, 255, 0.7021183473) 50%, rgba(234, 27, 246, 0.6965161064) 100%); }
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  header {
+    background-position: center center; }
+    header .img {
+      margin: 0 auto;
+      left: 32%;
+      top: 40%; }
+    header .headerformu .testperso {
+      font-size: 30px; }
+    header .headerformu .boutonheader {
+      font-size: 40px; }
+
+  .section1 {
+    background-position: center center; } }
+
+/*# sourceMappingURL=style.css.map */
